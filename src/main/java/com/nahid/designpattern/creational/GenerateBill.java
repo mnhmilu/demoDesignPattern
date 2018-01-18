@@ -26,7 +26,8 @@ class GenerateBill{
       //call getRate() method and calculateBill()method of DomesticPaln.  
   
        System.out.print("Bill amount for "+planName+" of  "+units+" units is: ");  
-           p.getRate();  
+            p.getRate();  
            p.calculateBill(units);  
-            }  
-    }//end of GenerateBill class.  
+            
+    }  
+  }//end of GenerateBill class.  

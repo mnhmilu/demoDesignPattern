@@ -7,7 +7,7 @@
 package com.nahid.designpattern.creational;
 
 class  InstitutionalPlan extends Plan{  
-   //@override  
+   @Override  
     public void getRate(){   
         rate=5.50;  
    }   

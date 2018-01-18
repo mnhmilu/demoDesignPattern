@@ -7,7 +7,7 @@
 package com.nahid.designpattern.creational;
 
 class  DomesticPlan extends Plan{  
-        //@override  
+        @Override  
          public void getRate(){  
              rate=3.50;              
         }  
