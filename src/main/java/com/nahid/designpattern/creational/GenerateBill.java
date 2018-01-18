@@ -9,6 +9,9 @@ package com.nahid.designpattern.creational;
 /**
  *
  * @author nahid.hossain
+ * Definition: A Factory Pattern or Factory Method Pattern says that just define an interface or
+ * abstract class for creating an object but let the subclasses decide which class to instantiate
+ *  Factory method : https://www.javatpoint.com/factory-method-design-pattern
  */
 import java.io.*;    
 class GenerateBill{  
