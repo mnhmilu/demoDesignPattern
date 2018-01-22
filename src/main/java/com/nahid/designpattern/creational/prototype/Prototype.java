@@ -4,14 +4,14 @@
  * and open the template in the editor.
  */
 
-package com.nahid.designpattern.abstructfactory;
+package com.nahid.designpattern.creational.prototype;
 
 /**
  *
  * @author nahid.hossain
  */
-class EducationLoan extends Loan{  
-     public void getInterestRate(double r){  
-       rate=r;  
- }  
-}//End of the EducationLoan class.  
+interface Prototype {  
+  
+     public Prototype getClone();  
+      
+}//End of Prototype interface.  

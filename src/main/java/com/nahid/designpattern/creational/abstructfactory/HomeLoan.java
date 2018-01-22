@@ -5,7 +5,7 @@
  * and open the template in the editor.
  */
 
-package com.nahid.designpattern.abstructfactory;
+package com.nahid.designpattern.creational.abstructfactory;
 
 /**
  *

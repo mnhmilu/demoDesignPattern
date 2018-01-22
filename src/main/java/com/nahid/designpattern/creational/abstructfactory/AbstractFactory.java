@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 
-package com.nahid.designpattern.abstructfactory;
+package com.nahid.designpattern.creational.abstructfactory;
 
-import com.nahid.designpattern.abstructfactory.Bank;
+import com.nahid.designpattern.creational.abstructfactory.Bank;
 
 /**
  *

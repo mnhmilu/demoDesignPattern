@@ -4,20 +4,20 @@
  * and open the template in the editor.
  */
 
-package com.nahid.designpattern.abstructfactory;
+package com.nahid.designpattern.creational.abstructfactory;
 
-import com.nahid.designpattern.abstructfactory.Bank;
+import com.nahid.designpattern.creational.abstructfactory.Bank;
 
 /**
  *
  * @author nahid.hossain
  */
-class HDFC implements Bank{  
-         private final String BNAME;  
-         public HDFC(){  
-                BNAME="HDFC BANK";  
+class ICICI implements Bank{  
+       private final String BNAME;  
+       ICICI(){  
+                BNAME="ICICI BANK";  
         }  
         public String getBankName() {  
                   return BNAME;  
-        }  
+       }  
 }  

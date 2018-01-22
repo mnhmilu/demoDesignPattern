@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package com.nahid.designpattern.creational;
+package com.nahid.designpattern.creational.factory;
 
 class PlanFactory{  
       
